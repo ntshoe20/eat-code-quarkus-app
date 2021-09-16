@@ -14,8 +14,8 @@ public class UserResource {
     private Set<User> users = Collections.newSetFromMap(Collections.synchronizedMap(new LinkedHashMap<>()));
 
     public UserResource() {
-        users.add(new User("Itumeleng", "Ntshoe"));
-        users.add(new User("Mali", "Peaches"));
+        users.add(new User("John", "Smith"));
+        users.add(new User("Beth", "Temple"));
     }
 
     @GET
